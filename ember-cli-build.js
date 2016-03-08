@@ -20,6 +20,9 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  // jQuery
+  app.import('bower_components/jquery/dist/jquery.js');
+
   // Bootstrap
   app.import('bower_components/bootstrap/dist/css/bootstrap.css');
   app.import('bower_components/bootstrap/dist/css/bootstrap.css.map',
